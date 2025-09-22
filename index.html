@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gastos App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+  <h1>Gastos App</h1>
+  <p>Controla y analiza tus finanzas personales</p>
+
+  <h2>Agregar Gasto</h2>
+  <input type="text" id="descripcion" placeholder="Descripción" />
+  <input type="number" id="monto" placeholder="Monto (S/)" />
+  <input type="date" id="fecha" />
+  <select id="categoria">
+    <option value="">Categoría</option>
+    <option value="Comida">Comida</option>
+    <option value="Transporte">Transporte</option>
+    <option value="Servicios">Servicios</option>
+    <option value="Otros">Otros</option>
+  </select>
+  <button id="agregarBtn">Agregar</button>
+
+  <h2>Resumen</h2>
+  <p id="total">Total: S/ 0.00</p>
+
+  <h2>Historial de Gastos</h2>
+  <ul id="historial"></ul>
+
+  <script src="app.js"></script>
+</body>
+</html>

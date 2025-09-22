@@ -1,0 +1,16 @@
+
+{
+  "name": "Gastos App PWA",
+  "short_name": "GastosApp",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f1f4f9",
+  "description": "App para organizar tus gastos personales.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
